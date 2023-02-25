@@ -1,0 +1,220 @@
+.carousel .carousel-item {
+    height: 600px;
+    width: 100%;
+}
+
+.carousel-item img {
+    width: 100%;
+    min-height: 600px;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+}
+
+.myText {
+    font-family: 'Barlow Condensed', Sans-serif;
+    font-size: 50px;
+    font-stretch: condensed;
+    font-style: italic;
+}
+
+.line {
+    border-bottom: solid 2px black;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+.bttn {
+    padding: 7px 40px;
+    border: solid 1px #003B4A;
+    border-radius: 9999px;
+}
+
+.avail {
+    border: solid 1px #003B4A;
+    border-radius: 9999px;
+    background-color: #003B4A;
+    color: white;
+}
+
+.bttn:hover {
+    background-color: #003B4A;
+    color: white;
+}
+
+.flag {
+    margin: -50px auto 0 40%;
+    border: solid 4px yellow;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+
+@media only screen and (min-width:1024px) {
+    .reservation {
+        position: absolute;
+        right: 30px;
+        border: solid 2px white;
+        padding: 10px 40px;
+        color: white;
+    }
+}
+
+.reservation:hover {
+
+    background-color: white;
+    color: black;
+}
+
+.carousel-caption {
+    margin-bottom: 10%;
+}
+
+.navbar {
+    width: 100%;
+    z-index: 20;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: transparent;
+}
+
+@media only screen and (min-width:1024px) {
+    .links {
+        margin-left: 20%;
+    }
+
+    .white {
+        color: white;
+    }
+
+    .facilities {
+        margin-left: 40%
+    }
+
+    .testimonials {
+        top: 20rem;
+    }
+
+    .test {
+        top: 5rem;
+    }
+
+    .grid2 img {
+        width: 600px;
+        height: 450px;
+    }
+
+    #form input,
+    textarea,
+    select {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #navbarScroll {
+        background-color: #FFFFFF;
+        color: #000000;
+    }
+
+    .myImg {
+        width: 100%;
+    }
+
+    .facilities {
+        margin-left: 10%;
+    }
+
+    .saranda {
+        height: 1300px;
+    }
+
+    .testimonials {
+        top: 10rem;
+    }
+
+    .test {
+        top: 2rem;
+    }
+
+    #form input,
+    textarea,
+    select {
+        width: 200px;
+    }
+}
+
+.grid1 img {
+
+    width: 600px;
+    height: 400px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.blueText {
+    font-size: large;
+    font-style: italic;
+    right: 0;
+    bottom: -10px;
+    width: 350px;
+    padding: 20px;
+    color: white;
+    position: absolute;
+    background-color: #003B4A;
+}
+
+.borderFacilities {
+
+    border: solid 2px #003B4A;
+}
+
+.yellow {
+    margin: 5px 0;
+    width: 300px;
+    border-bottom: solid 2px rgb(241, 233, 11);
+}
+
+.test {
+    width: 100%;
+    position: absolute;
+    margin: 0 auto;
+}
+
+.testimonials {
+    width: 100%;
+    position: absolute;
+    margin: 0 auto;
+}
+
+.about {
+    position: absolute;
+    bottom: 10rem;
+    margin: 0 auto;
+}
+
+.translate {
+    position: absolute;
+    top: 5rem;
+    left: 5rem;
+    z-index: 20;
+}
+
+.carousel-indicators {
+    position: absolute;
+    z-index: 30;
+    bottom: 6rem;
+}
+
+.availability {
+    position: absolute;
+    bottom: 2rem;
+}
